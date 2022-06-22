@@ -10,6 +10,6 @@ void _print_rev_recursion(char *s)
 	if (*s) /*If statement*/
 	{
 		if (*s) /*If statement*/
-			_putchar(*s); /*print s*/
+	        _putchar(*s); /*print s*/
 	}
 }
