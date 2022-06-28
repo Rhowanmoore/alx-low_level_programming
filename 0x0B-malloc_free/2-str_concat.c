@@ -14,8 +14,8 @@ char *str_concat(char *s1, char *s2)
 	char *strout;
 	unsigned int i, j, k, limit;
 
-	unsigned int i, j, k, limit;
-	s1 = "";
+	if (s1 == NULL)
+		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
 
